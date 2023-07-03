@@ -1,5 +1,4 @@
 node_modules
 .phpstorm
 .vscode
-dist/
 .DS_Store
