@@ -53,7 +53,9 @@ const forms = (state) => {
                     clearInputs();
                     setTimeout(() => {
                         statusMessage.remove();
-                    }, 5000);
+                        document.querySelector('.popup_calc_end').style.display = 'none';
+                        document.body.style.overflow = '';
+                    }, 3000);
                 });
         });
     });
